@@ -1,0 +1,51 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+.navbar {
+  background-color: #003366;
+}
+.navbar-brand, .nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+.navbar-brand:hover, .nav-link:hover {
+  color: #ffcc00 !important;
+}
+.hero {
+  background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), url('images/hero.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero p {
+  font-size: 1.3rem;
+}
+.section-title {
+  margin: 60px 0 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #003366;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+footer {
+  background: #003366;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+.btn-primary {
+  background-color: #0055cc;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #0044aa;
+}
